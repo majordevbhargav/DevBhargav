@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="12" y="10" width="46" height="48" rx="13" fill="#d6a94a" transform="rotate(-6 35 34)"/>
+  <rect x="7" y="5" width="47" height="49" rx="13" fill="#e8462c" transform="rotate(-6 30.5 29.5)"/>
+  <text x="30" y="39" text-anchor="middle" fill="#fffaf2"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="28" font-weight="700" font-style="italic"
+        letter-spacing="-1.8">DB</text>
+</svg>
