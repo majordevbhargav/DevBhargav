@@ -1,38 +1,41 @@
 # Dev Bhargav | Personal Portfolio
 
-A bilingual personal portfolio presenting my work across **enterprise networking, pre-sales engineering, software development, and network security**, alongside my academic journey and interests.
+A bilingual personal portfolio presenting my work, projects, and professional journey across **enterprise networking, pre-sales engineering, cybersecurity, software development, and cloud technologies**.
 
-The site is written as a self-contained HTML experience with custom CSS and vanilla JavaScript. It is designed to introduce my background, showcase selected engineering projects, and make professional contact straightforward.
+The portfolio is available in **English and Japanese**, reflecting my interest in Japan and making the site more accessible to an international audience.
 
-## Live preview
+## Live portfolio
 
-- **Portfolio source:** [Dev Bhargav · Pre-Sales Solutions Engineer](./Dev%20Bhargav%20%C2%B7%20Pre-Sales%20Solutions%20Engineer.html)
-- **GitHub profile:** [majordevbhargav](https://github.com/majordevbhargav)
-- **LinkedIn:** [devbhargav100](https://www.linkedin.com/in/devbhargav100)
+🌐 **Live website:** [devbhargav.vercel.app](https://devbhargav.vercel.app/)
 
-> The repository currently stores the portfolio page under a descriptive HTML filename rather than `index.html`. GitHub Pages does not automatically use that file as the root homepage. The source has intentionally been left unchanged; see **Running locally** below to preview it.
+💻 **Source code:** [GitHub repository](https://github.com/majordevbhargav/DevBhargav)
 
-## About the site
+The site is deployed as a static website on Vercel.
 
-The portfolio includes:
+## About the portfolio
 
-- **Introduction:** A short professional overview and current direction.
-- **About:** Engineering interests and a few personal milestones.
-- **Journey:** Education, NDA/SSB preparation, and professional experience.
-- **Selected work:** Links to projects involving endpoint posture, XDR, network automation, NetFlow analytics, and university research discovery.
-- **Credentials and skills:** Education, certifications, and technical areas.
-- **Beyond work:** Running, reading, and interests outside engineering.
-- **Contact:** Email, WhatsApp, LinkedIn, and GitHub contact options.
+The portfolio is designed to bring together my professional profile, selected engineering work, technical interests, and personal journey.
+
+It includes:
+
+- **Introduction:** Professional overview and current direction.
+- **About:** Background, engineering interests, and personal milestones.
+- **Journey:** Education, experience, and learning journey.
+- **Selected Work:** Projects across endpoint posture, XDR, network automation, NetFlow analytics, and research discovery.
+- **Skills and credentials:** Technical areas, education, and certifications.
+- **Beyond work:** Reading, running, and other interests.
+- **Contact:** Ways to connect professionally.
 
 ## Features
 
-- English and Japanese language toggle
+- English and Japanese language versions
+- Responsive layout for desktop and mobile
 - Light and dark theme toggle
-- Responsive layout for desktop and mobile screens
+- Custom DB browser favicon
 - Smooth section navigation and scroll-reveal effects
 - Project and professional profile links
 - Contact form that prepares a message using the visitor's email application
-- WhatsApp message shortcut
+- WhatsApp contact shortcut
 - Reduced-motion preference support
 
 ## Built with
@@ -41,54 +44,47 @@ The portfolio includes:
 |---|---|
 | HTML5 | Page structure and content |
 | CSS3 | Layout, responsive styling, themes, and animations |
-| Vanilla JavaScript | Language switch, theme switch, contact interactions, and scroll effects |
+| Vanilla JavaScript | Language switching, theme switching, contact interactions, and scroll effects |
 | Google Fonts | Shippori Mincho and Zen Kaku Gothic New |
 
-There is no framework, package manager, build step, or backend service required by the current page.
+The site is intentionally lightweight and does not require a JavaScript framework, package manager, backend, or build step.
 
-## Running locally
+## Run locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/majordevbhargav/DevBhargav.git
-   ```
-2. Open the repository folder.
-3. Open **`Dev Bhargav · Pre-Sales Solutions Engineer.html`** in a modern web browser.
+Clone the repository:
 
-You can also use a local static server if you prefer:
+```bash
+git clone https://github.com/majordevbhargav/DevBhargav.git
+cd DevBhargav
+```
+
+Open `index.html` in a modern browser, or start a local static server:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then visit [http://localhost:8000/Dev%20Bhargav%20%C2%B7%20Pre-Sales%20Solutions%20Engineer.html](http://localhost:8000/Dev%20Bhargav%20%C2%B7%20Pre-Sales%20Solutions%20Engineer.html).
+Then visit [http://localhost:8000](http://localhost:8000).
 
 ## Featured projects
 
-The portfolio currently highlights these repositories:
+The portfolio links to selected work, including:
 
 | Project | Focus |
 |---|---|
 | [Endpoint-Posture-Java](https://github.com/majordevbhargav/Endpoint-Posture-Java) | Endpoint posture and compliance using Java, Spring Boot, and PostgreSQL |
-| [Cisco-XDR](https://github.com/majordevbhargav/Cisco-XDR) | XDR and security event correlation |
+| [XDR](https://github.com/majordevbhargav/XDR) | Extended detection and response integrations and security automation |
 | [Ansible-Lan-Automation](https://github.com/majordevbhargav/Ansible-Lan-Automation) | Enterprise LAN automation |
 | [FlowWatch](https://github.com/majordevbhargav/FlowWatch) | NetFlow-based traffic analytics and anomaly detection |
 | [University_Deepcrawler](https://github.com/majordevbhargav/University_Deepcrawler) | Discovery of university professors, labs, and research themes |
 
-For implementation details, setup instructions, and current project status, refer to each project's own repository.
+For implementation details and current project status, refer to each project's repository.
 
 ## Deployment
 
-This is a static website and can be hosted on any static web host.
+The portfolio is a static website deployed through **Vercel**. The root `index.html` file is the website entry point, and `favicon.svg` provides the custom DB browser icon.
 
-For GitHub Pages to serve the site from the repository root, the entry page needs to be named `index.html` (or the Pages configuration must point to a folder containing an `index.html`). That deployment-oriented file change has **not** been made as part of this documentation-only update.
-
-## Notes
-
-- The portfolio is a personal profile, not a reusable web framework or product.
-- The contact form relies on the visitor's configured email application; it does not submit to a server.
-- Some visual assets are embedded directly in the HTML file.
-- No automated build or test suite is currently defined.
+No build command or output-directory compilation is required for this plain HTML/CSS/JavaScript site. Vercel should use the repository root as the project root and serve it as a static site.
 
 ## Contact
 
